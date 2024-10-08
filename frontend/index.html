@@ -1,0 +1,27 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub PR Review System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>GitHub PR Review System</h1>
+    <div id="auth">
+        <button id="connect-github">Connect GitHub</button>
+    </div>
+
+    <div id="dashboard" style="display:none;">
+        <h2>Welcome to Dashboard</h2>
+        <input type="text" id="repo-name" placeholder="Enter repository name (e.g., user/repo)">
+        <button id="create-webhook">Create Webhook</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
